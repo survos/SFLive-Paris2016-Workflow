@@ -45,6 +45,9 @@ class Kernel extends BaseKernel
         }
         $loader->load($confDir.'/services'.self::CONFIG_EXTS, 'glob');
         $loader->load($confDir.'/services_'.$this->environment.self::CONFIG_EXTS, 'glob');
+
+//        $loader->load('Survos\\WorkflowBundle\\', '/var/www/seal/lib/SurvosWorkflowBundle/src/');
+
     }
 
     protected function configureRoutes(RouteCollectionBuilder $routes)

@@ -65,6 +65,15 @@
             "ref": "70062abc2cd58794d2a90274502f81b55cd9951b"
         }
     },
+    "easycorp/easyadmin-bundle": {
+        "version": "1.17",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.17",
+            "ref": "66070ea553247b0cd5275e21d0fe5399a25f40be"
+        }
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
@@ -76,6 +85,9 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.1.1"
+    },
+    "pagerfanta/pagerfanta": {
+        "version": "v1.1.0"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -97,6 +109,9 @@
             "version": "4.0",
             "ref": "aaddfdf43cdecd4cf91f992052d76c2cadc04543"
         }
+    },
+    "survos/workflow-bundle": {
+        "version": "9999999-dev"
     },
     "symfony/asset": {
         "version": "v4.0.2"
@@ -325,6 +340,15 @@
     },
     "symfony/yaml": {
         "version": "v4.0.2"
+    },
+    "twig/extensions": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "4851df0afc426b8f07204379d21fca25b6df5d68"
+        }
     },
     "twig/twig": {
         "version": "v2.4.4"
