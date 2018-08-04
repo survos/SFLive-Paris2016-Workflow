@@ -40,7 +40,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../seal/SurvosWorkflowBundle"
+            "url": "../SurvosWorkflowBundle"
         }
     ],
 
