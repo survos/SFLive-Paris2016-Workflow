@@ -1,0 +1,14 @@
+easy_admin:
+
+    design:
+      menu:
+            - Task
+            - { label: 'Workflows', icon: code-fork, route: 'survos_workflow' }
+
+    entities:
+        Task:
+            class: App\Entity\Task
+            list:
+                fields:
+                   - {property: marking, template: '@SurvosWorkflow/easy_admin/state_machine_marking.html.twig' }
+                   - title
